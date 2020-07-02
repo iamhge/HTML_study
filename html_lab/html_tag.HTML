@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <h2> box & item </h2>
+  <!-- box : 안에 contents가 없는 이상 사용자에게 보여지지 X-->
+  <header></header>
+  <footer></footer>
+  <div></div>
+  <span></span>
+  
+  <!-- contents를 자동적으로 decoration해준다. so 엄밀히 box는 아님 -->
+  <h1></h1>
+  
+  <!-- item : 안에 contents가 없어도 사용자가 볼 수 있다. -->
+  <button></button>
+  
+  <h2> a </h2>
+  <a href="https://goolge.com" target=blank>Google</a>
+  
+  <h2> block & inline </h2>
+  
+  <!-- inline : tag를 넣는다고해서 다음 라인으로 넘어가지 x -->
+  <p>This is a sentece. <b>This is inline.</b> </p>
+  <!-- span : 나중에 css등에서 꾸밀 수 있음. -->
+  <p>This is a sentece. <span>This is inline.</span> </p>
+  
+  <!-- block : tag를 넣으면 줄바꿈이 일어남 -->
+  <p>This is a sentece. <div>This is block.</div> </p>
+  
+  <h2> list(ol & ul) </h2>
+  
+  <!-- "ol>li*3" 타이핑 후, tab키 누르면 아래와 같이 tag만들어짐 -->
+  <ol>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  
+  <ol type="i">
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  
+  <!-- boolean -->
+  <ol type="i" reversed>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+  
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  
+  <h2>input & type</h2>
+  <!-- input : 원하는 data를 사용자로부터 입력받는다. -->
+  
+  <!-- label, input 모두 inline임을 볼 수 있다. -->
+  <label for="input_name">Name : </label>
+  <!-- 한 페이지 안에 많은 input이 있을 수 있기 때문에 id로 식별 -->
+  <input id="input_name" type="text">
+  
+  <label for="input_button">button : </label>
+  <input id="input_button" type="button">  
+  
+  <label for="input_checkbox">check : </label>
+  <input id="input_checkbox" type="checkbox">  
+  
+  <label for="input_color">color : </label>
+  <input id="input_color" type="color">  
+  
+  <label for="input_file">file : </label>
+  <input id="input_file" type="file">  
+  
+  <label for="input_password">password : </label>
+  <input id="input_password" type="password"> 
+  
+</body>
+</html>
