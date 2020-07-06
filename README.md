@@ -6,6 +6,7 @@
 ### 공부할 때 참고한 자료
 * '드림코딩 by 엘리'님의 유튜브 영상
 * '생활코딩' WEB1
+* https://poiemaweb.com/
 * MDN HTML : https://developer.mozilla.org/ko/docs/Web/HTML
 * HDML 문법 검사 : https://validator.w3.org/
 
@@ -16,5 +17,4 @@
 
 ### 공부할 때 참고한 자료
 * '드림코딩 by 엘리'님의 유튜브 영상
-
-### 
+* https://poiemaweb.com/
