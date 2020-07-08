@@ -38,7 +38,7 @@ document.getElementById('root')
 <App />
 ```
 ## code 변경해보기
-* index.css, app.scc 모두 지우고 실습 시작
+* index.css, app.ccs 모두 지우고 실습 시작
 ### app.js
 ```
 class App extends Component {
@@ -63,9 +63,37 @@ body {
 }
 ```
 ![react_css_background_color](./md_image/react_css_background_color.png)  
-
 <src/index.css에서 background-color 변경 결과>  
 
+## 배포
+
+* build할 때
+```
+$ npm run build
+```
+* build DIR이 생성됨.
+* /build/index.html 파일 확인해보면 공백이 하나도 없고 읽을 수가 없음.
+
+![react_build_index_html](./md_image/react_build_index_html.png)  
+<build/index.html>  
+* 이미 가지고 있던 index.html에서 공백과 같이 불필요히 용량을 차지하는 부분을 모두 삭제한 결과.(실제로 이전보다 용량 적어짐)
+* so, 실제 서비스할 때는 build안에 있는 파일들을 쓰면된다.
+* web서버가 문서를 찾는 최상위 DIR을 build안으로 위치시키면 된다.
+
+### serve
+* npm을 통해 설치할 수 있는 간단한 web server
+* 컴퓨터 어디에서나 서버 실행
+```
+$ npm install -g serve
+```
+
+* serve라는 웹서버를 다운받아서 build라는 DIR을 document root로 지정
+```
+$ npm serve -s build
+```
+
+![react_serve_build](./md_image/react_react_serve_build.png)  
+<명령어 수행 결과>  
 
 
 
