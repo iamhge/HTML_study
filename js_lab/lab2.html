@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <!-- alert hi를 클릭했을 때 경고창이 뜬다 -->
+        <!-- 
+            onclick : 
+            속성값으로 반드시 js가 와야한다. 
+            해당 속성값은 웹브라우저가 기억하고 있다가, 사용자가 tag를 클릭했을 때(event가 일어났을 때)
+            기억하고 있던 js코드를 js의 문법에 따라 해석해서 그에 따라 웹브라우저 동작시킴. 
+        -->
+        <!--
+            on~~ : event(웹브라우저에서 일어나는 사건중에 유용한 것)
+        -->
+         <!-- 
+        web 브라우저에서 일어날 수 있는 event 예
+            1. click
+            2. text 입력 -> 내용이 변했을 때를 체크하는 event
+        -->
+        <input type="button" value="hi" onclick="alert('hi!')">
+        <input type="text" onchange="alert('changed')">
+        <input type="text" onkeydown="alert('key down!')">
+    </body>
+</html>
