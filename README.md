@@ -1,6 +1,9 @@
 # 알림
 본 repo는 frontend을 학습하면서 공부한 내용을 정리하는 repo임.
 
+* react-app-ubuntu : react 실습을 우분투에서 진행
+* react-app-window : react 실습을 window에서 진행
+
 ## HTML
 
 ### 공부할 때 참고한 자료
@@ -18,3 +21,7 @@
 ### 공부할 때 참고한 자료
 * '드림코딩 by 엘리'님의 유튜브 영상
 * https://poiemaweb.com/
+
+
+## REACT
+* 이고잉님의 생활 코딩 - react
