@@ -1,0 +1,51 @@
+[{
+	"id" : 1,
+	"img" : "img/1st_album.jpg",
+	"imgalt" : "OH MY GIRL",
+	"desc" : "1st mini album",
+	"price" : 12500,
+	"productname" : "OH MY GIRL"
+}, {
+	"id" : 2,
+	"img" : "img/2nd_album.jpg",
+	"imgalt" : "Closer",
+	"desc" : "2nd mini album",
+	"price" : 13400,
+	"productname" : "Closer"
+}, {
+	"id" : 3,
+	"img" : "img/3rd_album.jpg",
+	"imgalt" : "Windy Day",
+	"desc" : "3rd mini album(repackage)",
+	"price" : 11900,
+	"productname" : "Windy Day"
+}, {
+	"id" : 4,
+	"img" : "img/4th_album.jpg",
+	"imgalt" : "Coloring Book",
+	"desc" : "4th mini album",
+	"price" : 13400,
+	"productname" : "Coloring Book"
+}, {
+	"id" : 5,
+	"img" : "img/5th_album.jpg",
+	"imgalt" : "Secret Garden",
+	"desc" : "5th mini album",
+	"price" : 14900,
+	"productname" : "Secret Garden"
+}, {
+	"id" : 6,
+	"img" : "img/6th_album.jpg",
+	"imgalt" : "Remember Me",
+	"desc" : "6th mini album",
+	"price" : 14900,
+	"productname" : "Remember Me"
+}, {
+	"id" : 7,
+	"img" : "img/7th_album.jpg",
+	"imgalt" : "NONSTOP",
+	"desc" : "7th mini album",
+	"price" : 17100,
+	"productname" : "NONSTOP"
+}
+]

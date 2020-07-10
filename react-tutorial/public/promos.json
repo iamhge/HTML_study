@@ -1,0 +1,23 @@
+[{
+	"id" : 2,
+	"img" : "img/2nd_album.jpg",
+	"imgalt" : "Closer",
+	"desc" : "2nd mini album",
+	"price" : 13400,
+	"productname" : "Closer"
+}, {
+	"id" : 3,
+	"img" : "img/3rd_album.jpg",
+	"imgalt" : "Windy Day",
+	"desc" : "3rd mini album(repackage)",
+	"price" : 11900,
+	"productname" : "Windy Day"
+}, {
+	"id" : 5,
+	"img" : "img/5th_album.jpg",
+	"imgalt" : "Secret Garden",
+	"desc" : "5th mini album",
+	"price" : 14900,
+	"productname" : "Secret Garden"
+}
+]

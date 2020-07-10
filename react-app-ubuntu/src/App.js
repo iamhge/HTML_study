@@ -20,7 +20,7 @@ class App extends Component {
     }
   }
   render() {
-    return (
+    return (+
       <div className="App">
         <Subject 
           title={this.state.subject.title} // 상위 Component의 state값을 하위 Component의 props의 값으로 전달

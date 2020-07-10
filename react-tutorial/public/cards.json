@@ -1,0 +1,57 @@
+[{
+	"id" : 1,
+	"img" : "img/hyojung.jpg",
+	"imgalt" : "Hyo Jung",
+	"birth" : "1994.7.28",
+	"height" : 158,
+	"name" : "Hyo Jung",
+	"insta" : "https://www.instagram.com/candyz_hyojung/"
+}, {
+	"id" : 2,
+	"img" : "img/mimi.jpg",
+	"imgalt" : "Mimi",
+	"birth" : "1995.5.1",
+	"height" : 163,
+	"name" : "Mimi",
+	"insta" : "https://www.instagram.com/wm_ohmygirl/"
+},{
+	"id" : 3,
+	"img" : "img/yooa.jpg",
+	"imgalt" : "Yoo A",
+	"birth" : "1995.9.17",
+	"height" : 160,
+	"name" : "Yoo A",
+	"insta" : "https://www.instagram.com/yoo__sha/"
+},{
+	"id" : 4,
+	"img" : "img/seunghee.jpg",
+	"imgalt" : "Seung Hee",
+	"birth" : "1996.1.25",
+	"height" : 160,
+	"name" : "Seung Hee",
+	"insta" : "https://www.instagram.com/wm_ohmygirl/"
+},{
+	"id" : 5,
+	"img" : "img/jiho2.jpg",
+	"imgalt" : "Jiho",
+	"birth" : "1997.4.4",
+	"height" : 165,
+	"name" : "Jiho",
+	"insta" : "https://www.instagram.com/wm_ohmygirl/"
+},{
+	"id" : 6,
+	"img" : "img/bini2.jpg",
+	"imgalt" : "Bini",
+	"birth" : "1997.9.9",
+	"height" : 161,
+	"name" : "Bini",
+	"insta" : "https://www.instagram.com/wm_ohmygirl/"
+},{
+	"id" : 7,
+	"img" : "img/arin.jpg",
+	"imgalt" : "Arin",
+	"birth" : "1999.6.18",
+	"height" : 167,
+	"name" : "Arin",
+	"insta" : "https://www.instagram.com/ye._.vely618/"
+}]
