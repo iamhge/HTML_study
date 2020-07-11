@@ -95,11 +95,9 @@ $ npm serve -s build
 ![react_serve_build](./md_image/react_react_serve_build.png)  
 <명령어 수행 결과>  
 
-
-
-
-
-
+### react-tutorial
+react-tutorial은 window상에서 작성하였으므로 public, src 폴더만 추가하였음.  
+이외의 react 구성요소는 $ create-react-app를 통해 추가후 위 폴더의 소스코드 내용넣을 것.  
 
 ## error handling
 * vscode 킨 상태에서 $ npm run start 터미널에 치면 error남.
