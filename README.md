@@ -2,7 +2,7 @@
 본 repo는 frontend을 학습하면서 공부한 내용을 정리하는 repo임.
 
 * react-app-ubuntu : react 실습을 우분투에서 진행
-* react-app-window : react 실습을 window에서 진행
+* react-tutorial : react를 이용해서 오마이걸 페이지 만들기 
 
 ## HTML
 
